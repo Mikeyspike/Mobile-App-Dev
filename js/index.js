@@ -87,7 +87,6 @@ function writeFile()
 	fileEntry.createWriter(
 		function (writer) { 
 			console.log("writing file");
-			console.log(fileSystem.root);
 			writer.write(filetext);
 		}, 
 		fail
